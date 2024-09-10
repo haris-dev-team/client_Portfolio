@@ -1,0 +1,65 @@
+#contact {
+  position: relative;
+  background-image: url("../../../assets/con.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 1; /* Keeps overlay below the content */
+}
+
+.inp {
+  all: unset;
+  border: 1px solid red;
+  margin: 10px 0px;
+  text-align: start;
+  padding: 5px 10px;
+  font-size: large;
+  background-color: #d43b3b65;
+  width: 545px;
+}
+
+.inp::placeholder {
+  color: white;
+}
+
+.main_div {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.text_Area {
+  all: unset;
+  border: 1px solid red;
+  margin: 10px 0px;
+  text-align: start;
+  padding: 5px 10px;
+  font-size: large;
+  background-color: #d43b3b65;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.text_Area::placeholder {
+  color: white;
+}
+
+.main_btn {
+  all: unset;
+  display: flex;
+}
+.main_form {
+  position: relative;
+  z-index: 2; /* Keeps the form content above the overlay */
+  margin-top: 20px;
+}

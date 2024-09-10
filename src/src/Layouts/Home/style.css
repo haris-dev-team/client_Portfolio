@@ -1,0 +1,60 @@
+.main_grid_1_h3 {
+  font-weight: lighter;
+  font-size: xx-large;
+}
+.main_grid_1_h1 {
+  font-size: 50px;
+}
+.home_section_main_grid_1 {
+  height: 88.5dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#home {
+  background-image: url("../../../assets/ok.png");
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
+  object-position: top;
+  object-fit: cover;
+  background-color: black;
+}
+@keyframes blinkCursor {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-text {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.cursor {
+  font-size: 2rem;
+  border-right: 2px solid black;
+  animation: blinkCursor 0.8s steps(1) infinite;
+}
+h1,
+h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  color: #888;
+  font-size: 2em;
+}

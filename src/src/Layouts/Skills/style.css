@@ -1,0 +1,12 @@
+.hr_line {
+  border: 1px solid red;
+  width: 80px;
+  margin-top: 5px;
+
+}
+#skills{
+    background-image: url("../../../assets/main.png");
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
